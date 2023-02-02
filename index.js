@@ -5,8 +5,7 @@ function calcular(){
    let t = Number(entrada.value)
     let i = 0
     let r = 0
-    res.innerText += `${t}`
-   res.innerHTML = '<p>Tabuada de:<p/>'
+   res.innerHTML = `<p>Tabuada de: ${t}<p/>`
    if (entrada.value.length == 0){
     window.alert('[ERROR]- por favor digite uma tabuada valida')
    }
